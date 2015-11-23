@@ -1,0 +1,71 @@
+html{
+  display: block;
+}
+body{
+  margin: 0;
+}
+h1{
+  color: #FFF;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px black;
+}
+img{
+  height: 150px;
+}
+.marge{
+  width: 25%;
+  height: 1200px;
+  float: left;
+  background-color: #3D3D3D;
+  box-shadow: 5px 0px 18px black;
+}
+.photo{
+  position: fixed;
+  margin-top: 160px;
+  width: 320px;
+  height: 320px;
+  background-image: url(../medias/prise2.jpg);
+  background-size: cover;
+  border-radius: 250px;
+  box-shadow: 5px 0px 18px black;
+}
+.contenant{
+  float: right;
+  width: 73%;
+  height: 300px;
+  padding-left: 2%;
+}
+#one{
+  background-color: #FFBF3B;
+}
+#two{
+  background-color: #59DBD5;
+}
+#three{
+  background-color: #CF0A2C;
+}
+#four{
+  background-color: #055154;
+}
+.categorie{
+  width: 30%;
+  height: 180px;
+  background-color: green;
+  position: relative;
+}
+.hidden{
+  visibility: hidden;
+  position: absolute;
+}
+.categorie:hover .hidden{
+  position: absolute;
+  visibility: visible;
+  background-color: white;
+  width: 100%;
+  height: 180px;
+  opacity: 0.65;
+}
+.bloc{
+  width: 100%;
+  height: 300px;
+}
