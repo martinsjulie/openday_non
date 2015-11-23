@@ -1,71 +1,87 @@
-html{
+html {
   display: block;
 }
-body{
+body {
   margin: 0;
 }
-h1{
+h1, h2 {
   color: #FFF;
   text-transform: uppercase;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 3px 1px 10px black;
+  margin-left: 20px;
 }
-img{
-  height: 150px;
+p {
+  padding: 10px;
+  text-transform: uppercase;
 }
-.marge{
+#nom {
+  margin: 15px 0px 0px 35px;
+  position: fixed;
+}
+.marge {
   width: 25%;
   height: 1200px;
   float: left;
   background-color: #3D3D3D;
   box-shadow: 5px 0px 18px black;
 }
-.photo{
+.photo {
   position: fixed;
-  margin-top: 160px;
+  margin-top: 170px;
+  margin-left: 40px;
   width: 320px;
   height: 320px;
   background-image: url(../medias/prise2.jpg);
   background-size: cover;
   border-radius: 250px;
-  box-shadow: 5px 0px 18px black;
+  box-shadow: 3px 0px 20px black;
 }
-.contenant{
+.contenant {
   float: right;
   width: 73%;
   height: 300px;
   padding-left: 2%;
 }
-#one{
+#one {
   background-color: #FFBF3B;
 }
-#two{
+#two {
   background-color: #59DBD5;
 }
-#three{
+#three {
   background-color: #CF0A2C;
 }
-#four{
+#four {
   background-color: #055154;
 }
-.categorie{
-  width: 30%;
+.categorie {
+  float: left;
+  width: 20%;
   height: 180px;
-  background-color: green;
   position: relative;
+  background-color: grey;
+  margin-left: 10px;
 }
-.hidden{
+.categorie img {
+  width: 85%;
+}
+.hidden {
   visibility: hidden;
   position: absolute;
+  opacity: 0;
 }
-.categorie:hover .hidden{
+
+.categorie:hover .hidden {
   position: absolute;
   visibility: visible;
   background-color: white;
   width: 100%;
   height: 180px;
-  opacity: 0.65;
+  opacity: 0.85;
+  -webkit-transition: opacity 1s; /* Safari */
+  transition: opacity 1s;
 }
-.bloc{
+.bloc {
   width: 100%;
   height: 300px;
 }
