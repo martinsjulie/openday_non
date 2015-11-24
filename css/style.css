@@ -5,8 +5,12 @@ html {
 body {
   margin: 0;
 }
+a{
+  color: white;
+}
 .marge {
-  width: 16%;
+  position: fixed;
+  width: 14%;
   margin-top: 80px;
   height: 300px;
   background-color: #3D3D3D;
@@ -25,14 +29,17 @@ body {
 }
 #menu li {
   list-style: none;
-  height: 30px;
+  height: 35px;
   padding: 25px 0px 0px 9px;
+  text-transform: uppercase;
+  background-color: #E84162;
+
 }
 #menu {
-  width: 7%;
+  position: fixed;
   margin-top: 80px;
+  margin-left: 190px;
   height: 300px;
-  background-color: pink;
   float: left;
 }
 li img {
@@ -40,33 +47,55 @@ li img {
   width: auto;
   float: right;
 }
-.contenant{
+.contenant { /* CONTENANT SCROLL */
   width: 76%;
-  height: 580px;
-  background-color: pink;
+  height: 640px;
   float: right;
-  overflow: hidden;
 }
-.conteneur{
-  width: 1201px;
-  height:510px;
-  margin: 20px 0px 0px 20px;;
-  background-color: red;
-  overflow: scroll;
+.conteneur {
+  margin: 0px 0px 0px 20px;;
 }
-.contenu{
+.contenu {
+  width: 1007px;
+  height: 641px;
+  float: left;
+  background-color: grey;
+}
+.contenu_deux {
   width: 1017px;
   height: 494px;
   float: left;
-  background-color: yellow;
-}
-.contenu_deux{
-  width: 1017px;
-  height: 480px;
-  float: left;
-  background-color: green;
-
+  background-color: #E84162;
 }
 #ancre_contenu_un, #ancre_contenu_deux, #ancre_contenu_trois{
   visibility: hidden;
+}
+.categorie {
+  float: left;
+  margin-left: 35px;
+  margin-top: 85px;
+  width: 290px;
+  height: 470px;
+  background-color: #3D3D3D;
+  border: 3px dotted #E84162;
+  opacity: 0.75;
+}
+.categorie:hover {
+  opacity: 1;
+}
+.categorie_img {
+  width: 290px;
+  height: 130px;
+  /*
+  background-color: white;
+  */
+}
+.categorie_img img {
+  margin: 8px 0px 0px 20px;
+  text-shadow: 1px 1px 5px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+#redim{
+  margin-left: 90px;
 }
