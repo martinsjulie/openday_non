@@ -1,6 +1,72 @@
 html {
   display: block;
+  background-color: #3D3D3D;
 }
 body {
   margin: 0;
+}
+.marge {
+  width: 16%;
+  margin-top: 80px;
+  height: 300px;
+  background-color: #3D3D3D;
+  background-image: url(../medias/prise2.jpg);
+  background-size: cover;
+  float: left;
+}
+#menu ul {
+  margin: 0;
+  -webkit-margin-before:0;
+  -webkit-margin-after:0;
+  list-style: none;
+  width: 100%;
+  height: 500px;
+  -webkit-padding-start:0;
+}
+#menu li {
+  list-style: none;
+  height: 30px;
+  padding: 25px 0px 0px 9px;
+}
+#menu {
+  width: 7%;
+  margin-top: 80px;
+  height: 300px;
+  background-color: pink;
+  float: left;
+}
+li img {
+  height: 15px;
+  width: auto;
+  float: right;
+}
+.contenant{
+  width: 76%;
+  height: 580px;
+  background-color: pink;
+  float: right;
+  overflow: hidden;
+}
+.conteneur{
+  width: 1201px;
+  height:510px;
+  margin: 20px 0px 0px 20px;;
+  background-color: red;
+  overflow: scroll;
+}
+.contenu{
+  width: 1017px;
+  height: 494px;
+  float: left;
+  background-color: yellow;
+}
+.contenu_deux{
+  width: 1017px;
+  height: 480px;
+  float: left;
+  background-color: green;
+
+}
+#ancre_contenu_un, #ancre_contenu_deux, #ancre_contenu_trois{
+  visibility: hidden;
 }
