@@ -224,7 +224,7 @@
 }
 .c100 {
   position: relative;
-  font-size: 120px;
+  font-size: 140px;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -254,9 +254,9 @@
   width: 100%;
   z-index: 1;
   left: 0;
-  top: 0;
+  top: 45px;
   width: 5em;
-  line-height: 5em;
+  line-height: 1em;
   font-size: 0.2em;
   color: #cccccc;
   display: block;
@@ -1021,7 +1021,7 @@
 }
 .c100.dark {
   background-color: #777777;
-  margin-left: 35px;
+  margin-left: 30px;
 }
 .c100.dark .bar,
 .c100.dark .fill {
@@ -1062,7 +1062,9 @@
   border-color: #cccccc !important; /* COULEUR CERCLE */
 }
 .c100.orange.dark:hover > span {
-  color: rgba(0, 0, 0, 0.65); /*  COULEUR TEXT SURVOL*/
-  font-size: 0.27em;
-;
+  color: rgba(0, 0, 0, 0.65);  /* COULEUR TEXT SURVOL*/
+  font-size: 0.20em;
+  line-height: 1em;
+  margin-left: 15px;
+  text-align: center;
 }
