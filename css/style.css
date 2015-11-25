@@ -7,16 +7,25 @@ body {
 }
 a{
   color: white;
+  text-decoration: none;
+}
+li:hover{
+  box-shadow: 1px 1px 10px #7D7D7D;
+}
+p{
+  color: white;
 }
 .marge {
   position: fixed;
   width: 14%;
   margin-top: 80px;
-  height: 300px;
+  height: 500px;
   background-color: #3D3D3D;
-  background-image: url(../medias/prise2.jpg);
+  background-image: url(../medias/prise3.jpg);
   background-size: cover;
   float: left;
+  background-color: #E84162;
+  opacity: 0.40;
 }
 #menu ul {
   margin: 0;
@@ -30,15 +39,17 @@ a{
 #menu li {
   list-style: none;
   height: 35px;
-  padding: 25px 0px 0px 9px;
+  padding: 15px 15px 0px 15px;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  background-color: #E84162;
+  background-color: #E84162; /* ROSE*/
+  border-radius: 55px;
 
 }
 #menu {
   position: fixed;
   margin-top: 80px;
-  margin-left: 190px;
+  margin-left: 195px;
   height: 300px;
   float: left;
 }
@@ -98,4 +109,24 @@ li img {
 }
 #redim{
   margin-left: 90px;
+}
+.skill{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 70%;
+  height: 15px;
+  background-color: #3D3D3D;
+  border-radius: 30px;
+}
+.logo{
+  width: 20%;
+  height: 50px;
+  background-color: red;
+}
+.s80{
+  width: 80%;
+  height: 15px;
+  background-color: #E84162;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
