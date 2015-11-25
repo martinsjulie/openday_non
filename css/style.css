@@ -19,7 +19,17 @@ li img {
 }
 p{
   color: white;
+  padding: 0px 6px 0px 6px;
   font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+.projet{
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.description{
+  font-size: 11.4px;
 }
 .marge {
   position: fixed;
@@ -89,7 +99,9 @@ p{
   width: 1007px;
   height: 641px;
   float: left;
+  /*
   background-color: grey;
+  */
 }
 .contenu-maphoto {
   width: 1007px;
@@ -112,11 +124,11 @@ p{
 .categorie {
   float: left;
   margin-left: 35px;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 300px;
-  height: 320px;
-  background-color: #3D3D3D;
-  opacity: 0.75;
+  height: 295px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.80;
 }
 .categorie:hover {
   opacity: 1;
@@ -129,9 +141,7 @@ p{
   */
 }
 .categorie_img img {
-  margin: 8px 0px 0px 20px;
-  text-shadow: 1px 1px 5px;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
 #redim{
