@@ -1021,6 +1021,7 @@
 }
 .c100.dark {
   background-color: #777777;
+  margin-left: 35px;
 }
 .c100.dark .bar,
 .c100.dark .fill {
@@ -1062,5 +1063,6 @@
 }
 .c100.orange.dark:hover > span {
   color: rgba(0, 0, 0, 0.65); /*  COULEUR TEXT SURVOL*/
+  font-size: 0.27em;
 ;
 }

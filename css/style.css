@@ -154,7 +154,14 @@ p{
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
-
+.conteneur_skills {
+  width: 100%;
+  height: 400px;
+  padding: 60px 0px 0px 50px;
+}
+.c100 p72 dark orange{
+  margin-left: 20px;
+}
 .sliding-middle-out {
 	position: relative;
 	padding-bottom: 1px;
