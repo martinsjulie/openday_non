@@ -80,7 +80,7 @@ p{
   height: 300px;
   float: left;
 }
-.txt-valeur{
+.txt-valeur {
   width: 80%;
   height: auto;
   margin-left: 10%;
@@ -130,7 +130,17 @@ p{
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0.80;
 }
-.categorie:hover {
+.categorie_formation {
+  float: left;
+  margin-left: 35px;
+  margin-top: 140px;
+  width: 300px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.80;
+}
+.categorie:hover,
+.categorie_formation:hover {
   opacity: 1;
 }
 .categorie_img {
@@ -144,9 +154,7 @@ p{
   -webkit-filter: drop-shadow(0px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
-#redim{
-  margin-left: 90px;
-}
+
 .sliding-middle-out {
 	position: relative;
 	padding-bottom: 1px;
