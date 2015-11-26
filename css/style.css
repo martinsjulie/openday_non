@@ -186,11 +186,12 @@ p{
   padding-top: 120px;
   padding-left: 80px;
   background-color: green;
-  width: 100%;
+  width: 93%;
   height: 400px;
 }
 .contacts img {
   width: 8%;
   height: auto;
   margin-left: 50px;
+  -webkit-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.80));
 }
