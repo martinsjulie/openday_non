@@ -288,3 +288,16 @@ p{
   height: 95%;
   width: auto;
 }
+#close {
+  display: none;
+	position: absolute;
+	top:0.01%;
+	left: 0%;
+	width: 100%;
+	height: 497.2%;
+  background-color: green;
+	z-index:2009;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}

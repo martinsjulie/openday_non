@@ -198,7 +198,12 @@
           </div>
           <div class="categorie">
             <div class="categorie_img">
-              <img src="medias/img_femme.jpg"/>
+
+              <a href = "javascript:void(0)" onclick = "document.getElementById('fille01').style.display='block';document.getElementById('close').style.display='block';document.getElementById('fille02').style.display='block'">
+                <img src="medias/img_femme.jpg"/>
+              </a>
+              <div id="fille02" class="black_overlay2"></div>
+              <div id="fille01" class="white_content2"><img src="medias/fille.png"/><a href = "javascript:void(0)" onclick = "document.getElementById('fille01').style.display='none';document.getElementById('fille02').style.display='none'">Close<div id="close"></div></a></div>
             </div>
             <p class="projet">Look At Me</p>
             <p class="description">Illustration à la tablette graphique.
