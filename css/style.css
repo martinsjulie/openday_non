@@ -184,14 +184,70 @@ p{
 }
 .contacts {
   padding-top: 120px;
-  padding-left: 80px;
-  background-color: green;
+  padding-left: 10px;
   width: 93%;
   height: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.rond {
+  opacity: 0.80;
+  width: 15%;
+  height: 350px;
+  float: left;
+  padding: 20px;
+  font-size: 12px;
+}
+.rond:hover {
+  opacity: 1;
+}
+.rond p {
+  padding-left: 10px;
+  text-align: justify;
+}
+.contacts_elements {
+  opacity: 0.75;
+  width: 15%;
+  height: 100px;
+  margin: 80px 0px 0px 80px;
+  background-color: rgba(255, 255, 255, 0.15);;
+  float: left;
+}
+.contacts_elements:hover {
+  opacity: 1;
 }
 .contacts img {
-  width: 8%;
+  width: 32%;
   height: auto;
-  margin-left: 50px;
   -webkit-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.80));
+}
+
+/*                               TEST OVERLAY */
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 16px solid orange;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
 }
